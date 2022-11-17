@@ -13,17 +13,17 @@ Separator = ";"
 # print(output)
 
 # Step 2 - normalize data to extract report file
-print ("ProductID, SalesCode, Priority, MaterialCode")
+# print ("ProductID, SalesCode, Priority, MaterialCode")
 
-file = dataResourceFile
-myFile=open(file, 'r')
-myObject=myFile.read()
-u = myObject.encode('utf-8-sig')
-myObject = u.encode('utf-8')
-myFile.encoding
-myFile.close()
-myData=json.loads(myObject,'utf-8')
-Separator = ";"
+# file = dataResourceFile
+# myFile=open(file, 'r')
+# myObject=myFile.read()
+# u = myObject.encode('utf-8-sig')
+# myObject = u.encode('utf-8')
+# myFile.encoding
+# myFile.close()
+# myData=json.loads(myObject,'utf-8')
+# Separator = ";"
 
 # for i in myData['data']:
 #   print (i['ProductID__c'] + ""+Separator)
